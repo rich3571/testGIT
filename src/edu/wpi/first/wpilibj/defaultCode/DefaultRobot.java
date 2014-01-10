@@ -228,6 +228,9 @@ public class DefaultRobot extends IterativeRobot {
         m_dsPacketsReceivedInCurrentSecond++;					// increment DS packets received
 
         // put Driver Station-dependent code here
+        
+        // put some code here that does nothing
+        DoesNothing();
 
         // Demonstrate the use of the Joystick buttons
 
@@ -260,6 +263,19 @@ public class DefaultRobot extends IterativeRobot {
             }
         }
     }
+           
+        /**
+	 * DoesNothingMethod
+	 *
+	 * This method does nothing
+	 */
+	public void DoesNothing() {
+		// Nonsense code for purpose of demonstrating GIT functionality
+		int doneYet = 0;
+		if (doneYet == 0) {
+                    doneYet = 1;
+                }
+	}
 
 	/**
 	 * Clear KITT-style LED display on the solenoids
